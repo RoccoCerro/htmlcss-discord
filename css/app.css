@@ -119,6 +119,10 @@ body{
     font-size: 50px;
 }
 
+.ft-size-big{
+    font-size: 35px;
+}
+
 .pd-5{
     padding: 10px 30px
 }
@@ -244,4 +248,12 @@ body{
 .debug .lines-foot{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
+}
+
+.debug1 .container{
+    border: 3px solid red;
+}
+
+.debug1 .row{
+    border: 3px solid black;
 }
