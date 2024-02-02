@@ -9,6 +9,15 @@ img{
     max-width: 100%;
 }
 
+ul,ol,li{
+    list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
 /* LAYOUT */
 body{
     font-family: 'Open Sans', sans-serif;
@@ -28,10 +37,6 @@ body{
 .row{
     display: flex;
     flex-wrap: wrap;
-}
-
-.text-align-center{
-    text-align: center;
 }
 
 .col-50{
@@ -60,6 +65,12 @@ body{
 
 .col-1{
     max-height:15px ;
+}
+
+.two-col{
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }
 
 /* STILI GENERALI */
@@ -108,8 +119,12 @@ body{
     font-size: 50px;
 }
 
-.second-box .pd-5{
+.pd-5{
     padding: 10px 30px
+}
+
+.pd-4{
+    padding: 5px 15px;
 }
 
 .border-radius{
@@ -124,13 +139,25 @@ body{
     padding-bottom: 10px;
 }
 
+.pd-top-10{
+    padding-top: 10px;
+}
+
 .min-height-header{
     min-height: 300px;
 }
 
+.justify-content-center{
+    justify-content: center;
+}
 
+.text-align-center{
+    text-align: center;
+}
 
-
+.align-items-center{
+    align-items: center;
+}
 
 
 
@@ -162,7 +189,7 @@ body{
 	min-height: 20px;
 }
 
-.debug .one-col,.two-col,.three-col{
+.debug .one-col,.debug .two-col,.debug .three-col{
     background-color: yellowgreen;
 }
 
@@ -218,5 +245,3 @@ body{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
 }
-
-.debug1  
