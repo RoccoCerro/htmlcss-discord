@@ -151,8 +151,16 @@ body{
     padding-bottom: 10px;
 }
 
+.pd-bottom-100{
+    padding-bottom: 100px;
+}
+
 .pd-top-10{
     padding-top: 10px;
+}
+
+.pd-top-100{
+    padding-top: 100px;
 }
 
 .min-height-header{
@@ -191,9 +199,9 @@ body{
     border-top: 1px solid rgba(255, 255, 255, 0.236);
 }
 
-
-
-
+.flex-direction-column{
+    flex-direction: column;
+}
 
 
 
