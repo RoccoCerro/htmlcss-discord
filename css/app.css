@@ -15,19 +15,18 @@ img{
     margin: 0 auto;
 }
 
+.second-box{
+    max-width: 700px;
+	margin: 0 auto;
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
 }
 
-.row-different{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.row-different-two{
-    display: flex;
-    flex-wrap: wrap;
+.text-align-center{
+    text-align: center;
 }
 
 .col-50{
@@ -75,6 +74,50 @@ img{
     justify-content:space-between ;
 }
 
+.bg-header{
+    background-image: url("../img/jumbo.png");
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.font-color{
+    color: white;
+}
+
+.second-box .gap{
+    gap: 20px;
+}
+
+.ft-size-large{
+    font-size: large;
+}
+
+.second-box .pd-5{
+    padding: 10px 30px
+}
+
+.border-radius{
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* DEBUG */
 .debug .container {
 	/* border: 2px solid black; */
@@ -93,14 +136,6 @@ img{
 	/* border: 2px solid cornflowerblue; */
 	padding: 20px;
 	min-height: 20px;
-}
-
-.debug .text-right{
-    text-align: right;
-}
-
-.debug .text-center{
-    text-align: center;
 }
 
 .debug .one-col,.two-col,.three-col{
@@ -147,18 +182,6 @@ img{
     background-color: aquamarine;
 }
 
-.debug .row-different{
-    padding-top: 5px;
-    padding-bottom: 20px;
-    /* border: 2px solid red; */
-}
-
-.debug .row-different-two{
-    /* border: 2px solid red; */
-    height: 100px;
-    background-color: turquoise;
-}
-
 .debug .col-1{
     background-color: yellow;
 }
@@ -170,5 +193,4 @@ img{
 .debug .lines-foot{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
-    padding-top: 10px;
 }
