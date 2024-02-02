@@ -163,8 +163,13 @@ body{
     align-items: center;
 }
 
+.bg-footer{
+    background-color: rgb(35, 39, 42);
+}
 
-
+.color-title-list-footer{
+    color: #7289DB;
+}
 
 
 
