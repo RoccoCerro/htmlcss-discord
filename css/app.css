@@ -306,3 +306,7 @@ body{
 .debug1 .row{
     border: 3px solid black;
 }
+
+.bg-waves{
+    border-image: url(../img/wave.svg);
+}
