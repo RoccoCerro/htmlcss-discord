@@ -308,5 +308,15 @@ body{
 }
 
 .bg-waves{
-    border-image: url(../img/wave.svg);
+    background-color: lightgrey;
+}
+
+.wave-1hkxOo1{
+    background-color: lightgray;
+    color: white;
+}
+
+.wave-1hkxOo{
+    color:lightgray;
+    display: block;
 }
