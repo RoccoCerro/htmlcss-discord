@@ -73,6 +73,14 @@ body{
     align-items: center;
 }
 
+.bg-last-main{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 70%;
+    
+}
+
 /* STILI GENERALI */
 .second-box .row{
     justify-content: center;
@@ -203,7 +211,15 @@ body{
     flex-direction: column;
 }
 
+.wave-1hkxOo1{
+    background-color: lightgray;
+    color: white;
+}
 
+.wave-1hkxOo{
+    color:lightgray;
+    display: block;
+}
 
 
 
@@ -311,12 +327,3 @@ body{
     background-color: lightgrey;
 }
 
-.wave-1hkxOo1{
-    background-color: lightgray;
-    color: white;
-}
-
-.wave-1hkxOo{
-    color:lightgray;
-    display: block;
-}
